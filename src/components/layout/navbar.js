@@ -29,26 +29,32 @@ const MenuItems= [
 
 export default class MyNavbar extends Component {
     render(){
-        return(
-            <Nav className="me-auto justify-content-center anav" >
-            {MenuItems.map((item, idx) => {
-                        return( 
-                            <Nav.Link className={item.cName} key={idx} >
-                                <Link
-                                activeClass='active'
-                                to={item.id}
-                                spy={true}
-                                smooth={true}
-                                exact= {true}
-                                offset={0}
-                                duration={1000}
-                                >
-                                    {item.title}
-                                </Link>
-                            </Nav.Link >
-                              )
-                    })}
-            </Nav>
-        )
+        return (
+          <Navbar className='anav'>
+            <Container>
+              <Nav className="me-auto justify-content-center ">
+                <Navbar.Collapse id="basic-navbar-nav">
+                  {MenuItems.map((item, idx) => {
+                    return (
+                      <Nav.Link className={item.cName} key={idx}>
+                        <Link
+                          activeClass="active"
+                          to={item.id}
+                          spy={true}
+                          smooth={true}
+                          exact={true}
+                          offset={0}
+                          duration={1000}
+                        >
+                          {item.title}
+                        </Link>
+                      </Nav.Link>
+                    );
+                  })}
+                </Navbar.Collapse>
+              </Nav>
+            </Container>
+          </Navbar>
+        );
     }
 }
