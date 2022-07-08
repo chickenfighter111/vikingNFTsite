@@ -45,7 +45,7 @@ export default class MyNavbar extends Component {
                     smooth={true}
                     exact={true}
                     offset={0}
-                    duration={1000}
+                    duration={2000}
                   >
                     <Nav.Link
                   className={item.cName}
