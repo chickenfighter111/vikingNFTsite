@@ -2,6 +2,7 @@ import { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
 import t1 from "../static/media/team/t1.jpg";
 import t2 from "../static/media/team/t2.png";
+import t3 from "../static/media/team/t3.png";
 
 const TeamMembers = [
   {
@@ -17,7 +18,7 @@ const TeamMembers = [
   {
     name: "Zzz",
     role: "Co-founder & DEV",
-    pp: t2,
+    pp: t3,
   }
 ];
 
