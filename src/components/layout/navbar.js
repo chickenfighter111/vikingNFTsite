@@ -60,14 +60,14 @@ export default class MyNavbar extends Component {
               );
             })}
                  <Nav.Link
-                  className="nav-item team1"
+                  className="team1"
                   eventKey="5"
                 >
                   Staking
                   <Badge pill  bg="primary">Live</Badge>
                 </Nav.Link>
                 <Nav.Link
-                  className="nav-item team1"
+                  className="team1"
                   eventKey="6"
                 >
                   Sniping
