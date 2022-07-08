@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { Component } from "react";
-import { Element } from "react-scroll";
 import Carousel from "better-react-carousel";
 import logo from "../static/media/0.png";
 import logo1 from "../static/media/1.png";

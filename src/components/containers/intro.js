@@ -1,11 +1,9 @@
-import { Container, Row, Col } from "react-bootstrap";
-import { Component, useEffect } from "react";
+import { Container, Row } from "react-bootstrap";
+import { useEffect } from "react";
 import video from "../static/media/vid.mp4";
 import pointa from "../static/media/POINTA.jpg";
 import pointb from "../static/media/POINTB.jpg";
 import AOS from "aos";
-import { Element } from "react-scroll";
-import logo from "../static/media/logo.png";
 
 import "aos/dist/aos.css";
 
