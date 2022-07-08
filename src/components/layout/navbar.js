@@ -64,7 +64,7 @@ export default class MyNavbar extends Component {
                   eventKey="5"
                 >
                   Staking
-                  <Badge pill  bg="primary">Coming soon!</Badge>
+                  <Badge pill  bg="primary">Live</Badge>
                 </Nav.Link>
                 <Nav.Link
                   className="nav-item team1"

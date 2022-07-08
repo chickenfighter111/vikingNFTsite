@@ -1,27 +1,23 @@
 import { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import pp from "../static/media/team/pp.jpg";
+import t1 from "../static/media/team/t1.jpg";
+import t2 from "../static/media/team/t2.png";
 
 const TeamMembers = [
   {
-    name: "King CFC",
-    role: "Team",
-    pp: pp,
+    name: "RagnarSOL",
+    role: "Founder",
+    pp: t1,
   },
   {
-    name: "Zmk.sol",
-    role: "Team",
-    pp: pp,
+    name: "Bjorn_SOL",
+    role: "Co-founder & DEV",
+    pp: t2,
   },
   {
-    name: "Sing",
-    role: "Dev",
-    pp: pp,
-  },
-  {
-    name: "DouilleHeinz",
-    role: "Artist",
-    pp: pp,
+    name: "Zzz",
+    role: "Co-founder & DEV",
+    pp: t2,
   }
 ];
 
