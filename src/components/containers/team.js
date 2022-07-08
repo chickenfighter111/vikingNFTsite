@@ -1,6 +1,5 @@
 import { Component } from "react";
 import { Container, Row, Col, Card } from "react-bootstrap";
-import { Element } from "react-scroll";
 import pp from "../static/media/team/pp.jpg";
 
 const TeamMembers = [
@@ -30,7 +29,6 @@ export default class Team extends Component {
   render() {
     return (
       <Container className="teamContainer" id="team">
-        <Element name="team">
           <Container>
             <h2 className="aTitle">Team</h2>
             <Container>
@@ -65,7 +63,6 @@ export default class Team extends Component {
               </Container>
             </Container>
           </Container>
-        </Element>
       </Container>
     );
   }

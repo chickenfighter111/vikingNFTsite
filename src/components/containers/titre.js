@@ -7,7 +7,7 @@ import logo from "../static/media/V.png";
 export default class Titre extends Component {
   render() {
     return (
-      <Container className="welcomeContainer">
+      <Container>
         <h1 className="titleText">
           <Container>
           <p class="gradient-text">Soldiers of  <img className="logoVK" src={logo}/>alhalla</p>

@@ -15,8 +15,7 @@ const ProjectIntro = () => {
   }, []);
 
   return (
-    <Container className="introContainer">
-      <Element name="introduction">
+    <Container className="introContainer" id="introduction">
         <Row>
           <h2>F*ck the WL meta , LFG to the Valhalla</h2>
         </Row>
@@ -40,7 +39,6 @@ const ProjectIntro = () => {
           <Container data-aos="fade-right">
             <img className="point_img" src={pointb} />
           </Container>
-      </Element>
     </Container>
   );
 };

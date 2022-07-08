@@ -24,7 +24,7 @@ import Titre from "./titre";
 class WelcomeContainer extends Component {
   render() {
     return (
-      <Element name="welcomeContainer">
+      <Container id="welcomeContainer">
         <Titre />
         <Row>
           <Container>
@@ -109,7 +109,7 @@ class WelcomeContainer extends Component {
             </div>
           </Container>
         </Row>
-      </Element>
+      </Container>
     );
   }
 }

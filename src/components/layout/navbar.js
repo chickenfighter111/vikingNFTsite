@@ -5,25 +5,25 @@ import { Navbar, Nav, Badge } from "react-bootstrap";
 const MenuItems = [
   {
     title: "Home",
-    cName: "nav-item home1",
+    cName: "home1",
     id: "welcomeContainer",
     eventKey: "1",
   },
   {
     title: "Introduction",
-    cName: "nav-item intro1",
+    cName: "intro1",
     id: "introduction",
     eventKey: "2",
   },
   {
     title: "Roadmap",
-    cName: "nav-item road1",
+    cName: "road1",
     id: "roadmap",
     eventKey: "3",
   },
   {
     title: "Team",
-    cName: "nav-item team1",
+    cName: "team1",
     id: "team",
     eventKey: "4",
   }
@@ -38,11 +38,6 @@ export default class MyNavbar extends Component {
           <Navbar.Collapse id="basic-navbar-nav">
             {MenuItems.map((item, idx) => {
               return (
-                <Nav.Link
-                  className={item.cName}
-                  key={idx}
-                  eventKey={item.eventKey}
-                >
                   <Link
                     activeClass="activeNavLink"
                     to={item.id}
@@ -52,9 +47,16 @@ export default class MyNavbar extends Component {
                     offset={0}
                     duration={1000}
                   >
-                    {item.title}
-                  </Link>
+                    <Nav.Link
+                  className={item.cName}
+                  key={idx}
+                  eventKey={item.eventKey}
+                >
+               
+                  {item.title}
+                
                 </Nav.Link>
+                  </Link>
               );
             })}
                  <Nav.Link
