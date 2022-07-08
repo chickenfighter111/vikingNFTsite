@@ -16,8 +16,8 @@ const TeamMembers = [
     pp: t2,
   },
   {
-    name: "Zzz",
-    role: "Co-founder & DEV",
+    name: "Floki.sol",
+    role: "Marketing",
     pp: t3,
   }
 ];
