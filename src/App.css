@@ -25,6 +25,10 @@
     border-radius: 5px;
 }
 
+.welcomeContainer{
+  padding-top: 20px;
+}
+
 .anav {
   background-image: linear-gradient(
     to right,
@@ -405,12 +409,31 @@ h1 {
   padding-bottom: 50px;
 }
 
-.badge{
+
+.rdbage{
+  background-image: linear-gradient(
+    to bottom,
+    #ff1414 0,
+    #580000 100%
+  );
+}
+
+
+.zbadge{
   background-image: linear-gradient(
     to bottom,
     #0081f1 0,
     #031f3a 100%
   );
+}
+
+.zzbadge{
+  background-image: linear-gradient(
+    to bottom,
+    #0081f1 0,
+    #031f3a 100%
+  );
+  margin: auto;
 }
 
 h3{

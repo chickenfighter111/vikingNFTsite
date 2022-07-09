@@ -8,6 +8,9 @@ import React, { useState, useEffect } from "react";
 import { BsFillFileArrowUpFill } from "react-icons/bs";
 import { animateScroll as scroll } from "react-scroll";
 
+import Header from './components/layout/navbar';
+import Footer from './components/layout/footer';
+
 const App = () => {
   const [showButton, setShowButton] = useState(false);
 
@@ -27,6 +30,8 @@ const App = () => {
 
   return (
     <Container className="App">
+          <Header />
+
       <Container className="componentsContainer">
         <WelcomeContainer />
         <IntroContainer />
@@ -38,6 +43,8 @@ const App = () => {
         </button>
       )}
       </Container>
+      
+    <Footer />
     </Container>
   );
 };

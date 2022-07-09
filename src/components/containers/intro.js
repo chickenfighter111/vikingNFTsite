@@ -15,7 +15,7 @@ const ProjectIntro = () => {
   return (
     <Container className="introContainer" id="introduction">
         <Row>
-          <h2>F*ck the WL meta , LFG to the Valhalla</h2>
+          <h2 data-aos="zoom-in" data-aos-duration={500}>F*ck the WL meta , LFG to the Valhalla</h2>
         </Row>
         <Container data-aos="fade">
             <h3>We start here...</h3>

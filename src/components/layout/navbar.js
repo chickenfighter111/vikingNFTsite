@@ -44,7 +44,7 @@ export default class MyNavbar extends Component {
                     spy={true}
                     smooth={true}
                     exact={true}
-                    offset={0}
+                    offset={-80}
                     duration={2000}
                   >
                     <Nav.Link
@@ -64,14 +64,14 @@ export default class MyNavbar extends Component {
                   eventKey="5"
                 >
                   Staking
-                  <Badge pill  bg="primary">Live</Badge>
+                  <Badge className="rdbage" pill>Live</Badge>
                 </Nav.Link>
                 <Nav.Link
                   className="team1"
                   eventKey="6"
                 >
                   Sniping
-                  <Badge pill  bg="primary">Coming soon!</Badge>
+                  <Badge pill  className="zbadge">Coming soon!</Badge>
                 </Nav.Link>
             <Nav.Link eventKey="7"
             href="https://twitter.com/SoValhallaNFT">

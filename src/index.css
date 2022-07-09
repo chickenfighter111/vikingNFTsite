@@ -1,19 +1,19 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, VK;
+  font-family: -apple-system, BlinkMacSystemFont, "VK";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgb(212, 239, 255) !important;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'VK',
     monospace;
 }
 
 @font-face {
   font-family: 'VK';
-  src: local('VK'), url(./font/VK.otf) format('otf');
+  src: local('VK'), url(./font/VK.otf) format('opentype');
   font-weight: normal;
 }
 
