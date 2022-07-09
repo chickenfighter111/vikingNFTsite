@@ -1,7 +1,7 @@
 import React from "react";
 import { Component } from "react";
 import { Container } from "react-bootstrap";
-import logo from "../static/media/V.png";
+import logo from "../static/media/V2.png";
 
 
 export default class Titre extends Component {
