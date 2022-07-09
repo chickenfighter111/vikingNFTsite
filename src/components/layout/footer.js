@@ -10,7 +10,7 @@ export default class Footer extends Component{
          
             <div className="globalfooter">
             <Container
-              className="text-center text-dark p-3"
+              className="text-center p-3"
             >
               <Row>
               
@@ -24,9 +24,7 @@ export default class Footer extends Component{
                 </a>
               </Row>
               © 2022 Copyright:
-              <a className="text-dark" href="/">
                Viking NFT
-              </a>
             </Container>
             </div>
          
