@@ -1,4 +1,4 @@
-import { Container, Badge, Row } from "react-bootstrap";
+import { Container, Badge, Row, Nav } from "react-bootstrap";
 import m from "../static/media/mmm.PNG";
 
 const RoadMap = () => {
@@ -8,9 +8,13 @@ const RoadMap = () => {
       <Row>
         <img className="roadMapImg" src={m} alt="" />
       </Row>
-        <Badge pill className="zzbadge">
-          <h5>Plunder Map V2 coming soon</h5>
+        <Container>
+        <Badge pill className="road12 zzbadge">
+          <Nav.Link>
+            <h1 className="badgeTxt">Plunder Map V2 coming soon</h1>
+          </Nav.Link>
         </Badge>
+        </Container>
     </Container>
   );
 };

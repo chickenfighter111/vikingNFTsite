@@ -102,7 +102,7 @@ video {
   border-radius: 50px 15px 30px 5px;
 }
 
-h1 {
+.titleText {
   padding-top: 100px;
 }
 
@@ -235,6 +235,26 @@ h1 {
   transition-delay: 0, 5;
 }
 
+.road12 {
+  position: relative;
+  padding: 10px 30px;
+  margin: 0 15px;
+  background-color: #056875(0, 0, 0);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 15px;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.road12:hover {
+  background-color: rgb(28, 117, 219);
+  color: rgb(46, 144, 236);
+  box-shadow: 0 0 50px rgb(0, 164, 240);
+  transition-delay: 0, 5s;
+}
+
 .road1 {
   position: relative;
   padding: 10px 30px;
@@ -296,6 +316,7 @@ h1 {
 .roadMapContainer {
   height: 100%;
   padding-bottom: 30px;
+  position:relative
 }
 
 .roadMapImg {
@@ -387,7 +408,7 @@ h1 {
 .teamCard {
   margin: auto;
   background-color: #353535;
-  color: rgb(0, 0, 0);
+  color: rgb(212, 239, 255);
   max-height: 300px !important;
   max-width: 180px !important;
   margin-top: 50px;;
@@ -405,7 +426,6 @@ h1 {
 }
 
 .teamContainer{
- 
   padding-bottom: 50px;
 }
 
@@ -430,10 +450,14 @@ h1 {
 .zzbadge{
   background-image: linear-gradient(
     to bottom,
-    #0081f1 0,
-    #031f3a 100%
+    #0078e0 0,
+    #000c18 100%
   );
   margin: auto;
+}
+
+.badgeTxt{
+  font-size:3vw
 }
 
 h3{
